@@ -10,7 +10,6 @@
     "*.json",
     "*.html",
     "*.less",
-    "*.almond.js",
-    "*.conf.js"
+    "*.almond.js"
   ]
 }

@@ -92,7 +92,7 @@ Content.fromSdk = function (d) {
 
     function formatBodyHtml (bodyHtml) {
         // wrap in <p> if not already
-        if (bodyHtml.substr(0,1)!=='<') {
+        if (bodyHtml && bodyHtml.substr(0,1)!=='<') {
             return '<p>'+bodyHtml+'</p>';
         }
         return bodyHtml
