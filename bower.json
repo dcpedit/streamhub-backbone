@@ -5,12 +5,13 @@
     "/docs",
     "/test",
     "/tools",
+    ".*",
     "*.txt",
     "*.md",
     "*.json",
     "*.html",
     "*.less",
-    "*.almond",
-    "require*"
+    "*.almond.js",
+    "*.conf.js"
   ]
 }
