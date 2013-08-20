@@ -1,7 +1,6 @@
 {
   "name": "streamhub-backbone",
   "ignore": [
-    "/const",
     "/docs",
     "/test",
     "/tools",
