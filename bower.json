@@ -1,5 +1,20 @@
 {
   "name": "streamhub-backbone",
+  "version": "1.2.0",
+  "main": [
+    "./main.css",
+    "./main.js"
+  ],
+  "dependencies": {
+    "jquery": ">1.7.2",
+    "requirejs": "*",
+    "requirejs-text": "*",
+    "underscore": "*",
+    "mustache": "*",
+    "backbone": "*",
+    "jasmine": "*",
+    "jasmine-jquery": "*"
+  },
   "ignore": [
     "/docs",
     "/test",

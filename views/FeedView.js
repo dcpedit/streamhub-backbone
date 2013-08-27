@@ -1,12 +1,14 @@
 define([
 'backbone',
 'mustache',
+'jquery',
 'text!streamhub-backbone/templates/Content.html',
 'streamhub-backbone/views/ContentView',
 'streamhub-backbone/const/sources'
 ], function (
 Backbone,
 Mustache,
+$,
 ContentTemplate,
 ContentView,
 sources) {
@@ -62,7 +64,7 @@ Handle a new piece of Content being added to the Collection
 Stream it into the beginning of the parent .el */
 FeedView.prototype._addItem = function(item, collection, opts) {
     var self = this,
-        newItem = self.$('<div/>'),
+        newItem = $('<div/>'),
         data = item.toJSON();
 
     if ( ! data.author) {
