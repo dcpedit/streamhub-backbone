@@ -62,6 +62,7 @@ and retrieve initial Content
 @TODO Separate configuring the remote source from loading its data
 */
 Collection.prototype.setRemote = function (remoteOptions) {
+    this._sdkOptions = remoteOptions;
     this._sdk = remoteOptions.sdk;
     this._sdkCollection = this._sdk.getCollection({
         siteId: remoteOptions.siteId,
