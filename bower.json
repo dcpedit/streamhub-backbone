@@ -1,6 +1,6 @@
 {
   "name": "streamhub-backbone",
-  "version": "1.2.0",
+  "version": "1.2.0-fix.3",
   "main": [
     "./main.css",
     "./main.js"
@@ -23,7 +23,6 @@
     "*.txt",
     "*.md",
     "*.json",
-    "*.html",
     "*.less",
     "*.almond.js"
   ]
